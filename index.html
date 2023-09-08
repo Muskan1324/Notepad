@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="desktop">
+        <div class="box">
+
+            <h1>NotePad</h1>
+
+            <div class="input">
+
+                <!-- <input type="text" id="input-box" placeholder="Write Here"> -->
+                <textarea  id="input-box" cols="60" rows="15"></textarea>
+            </div>
+            <div>
+                <button onclick="addTask()" >Save</button>
+                <button onclick="Clear()">Delete</button>
+            </div >
+
+            <ul id="list"> </ul>
+
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
